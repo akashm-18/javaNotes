@@ -1,0 +1,44 @@
+stack and heaps are responsible for the storing the values in Java.
+
+Here, Stack is LIFO (Last In First Out)
+Heap is FIFO(First In First Out)
+
+// Comes to the storing data part.
+
+All it starts from the main method.
+
+It creates a stack for the main method.
+Then stores the value in (key-value) pairs.
+Like we have int value = 33;
+in stack it store in key-value (value = 33);
+
+Then comes the reference variable obj.
+It created using the calculator class.
+
+Here the obj stored with key-value pair of (obj = memory Address of obj)
+Because when we creating the obj (reference-variable) 
+It created in the Heap.
+Heap have two sections. one for variables and one for methods
+Here in calculator class we have 
+1) num = 10; (Instance variable);
+2) add method.Heap only have the method.Not its implemetation.
+
+Implemetation for add it created using the stack.
+Here new stack (add)
+Which has num1 = 3
+Which has num2 = 6
+
+Stack always links with the heap.
+Stack needs to get the memory Address of the obj.
+Then it gets the return value for result.
+Which will stored in the main method.
+With Key-value (result = 9)
+
+objects are stored in the heap with memory Address.
+
+If we create another object this created in heap with another new memory Address
+
+
+// These all happens using the JVM(Java Virtual Machine)
+
+Refer the screenShot.
